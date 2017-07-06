@@ -1,5 +1,5 @@
 ﻿using Net.Chdk.Meta.Model.CameraTree;
-using Net.Chdk.Meta.Providers.CameraModel.Csv;
+using Net.Chdk.Meta.Providers.Csv;
 using System.Collections.Generic;
 using System.IO;
 
