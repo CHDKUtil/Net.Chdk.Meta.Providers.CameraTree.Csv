@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Model.CameraT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.CameraTree.Core", "..\..\..\Net.Chdk.Meta.Providers.CameraTree.Core\src\Net.Chdk.Meta.Providers.CameraTree.Core\Net.Chdk.Meta.Providers.CameraTree.Core.csproj", "{7DFA900F-4AAB-4268-90D8-20A8FF3B40A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.CameraModel.Csv", "..\..\..\Net.Chdk.Meta.Providers.CameraModel.Csv\src\Net.Chdk.Meta.Providers.CameraModel.Csv\Net.Chdk.Meta.Providers.CameraModel.Csv.csproj", "{5C7EF1D1-44C2-42D4-96D8-2B9468426695}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.Csv", "..\..\..\Net.Chdk.Meta.Providers.Csv\src\Net.Chdk.Meta.Providers.Csv\Net.Chdk.Meta.Providers.Csv.csproj", "{5C7EF1D1-44C2-42D4-96D8-2B9468426695}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
