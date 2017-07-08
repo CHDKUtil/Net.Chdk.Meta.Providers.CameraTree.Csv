@@ -1,7 +1,6 @@
 ﻿using Net.Chdk.Meta.Model.CameraTree;
 using Net.Chdk.Meta.Providers.Csv;
 using System.Collections.Generic;
-using System.IO;
 
 namespace Net.Chdk.Meta.Providers.CameraTree.Csv
 {
@@ -9,10 +8,7 @@ namespace Net.Chdk.Meta.Providers.CameraTree.Csv
     {
         public IDictionary<string, TreePlatformData> GetCameraTree(string path)
         {
-            using (var stream = File.OpenRead(path))
-            {
-                return GetCameras(stream);
-            }
+            return GetCameras(path);
         }
     }
 }
