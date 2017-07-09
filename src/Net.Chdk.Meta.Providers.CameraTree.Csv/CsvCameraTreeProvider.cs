@@ -10,5 +10,12 @@ namespace Net.Chdk.Meta.Providers.CameraTree.Csv
         {
             return GetCameras(path);
         }
+
+        protected override TreeSourceData GetSourceData(string[] split)
+        {
+            var source = base.GetSourceData(split);
+            source.Platform = split[0];
+            return source;
+        }
     }
 }
