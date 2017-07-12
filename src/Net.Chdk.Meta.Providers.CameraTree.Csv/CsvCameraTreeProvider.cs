@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Net.Chdk.Meta.Providers.CameraTree.Csv
 {
-    sealed class CsvCameraTreeProvider : CsvCameraProvider<TreePlatformData, TreeRevisionData, TreeSourceData>, ICameraTreeProvider
+    sealed class CsvCameraTreeProvider : CsvCameraProvider<TreePlatformData, TreeRevisionData, TreeSourceData>, IInnerCameraTreeProvider
     {
         public IDictionary<string, TreePlatformData> GetCameraTree(string path)
         {
