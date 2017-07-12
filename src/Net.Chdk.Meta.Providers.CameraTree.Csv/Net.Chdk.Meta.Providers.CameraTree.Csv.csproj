@@ -62,6 +62,10 @@
     <Compile Include="ServiceCollectionExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Core\src\Net.Chdk.Meta.Providers.Core\Net.Chdk.Meta.Providers.Core.csproj">
+      <Project>{a336d62c-4caf-4b19-9602-8ce0e51b4eb4}</Project>
+      <Name>Net.Chdk.Meta.Providers.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Csv\src\Net.Chdk.Meta.Providers.Csv\Net.Chdk.Meta.Providers.Csv.csproj">
       <Project>{5C7EF1D1-44C2-42D4-96D8-2B9468426695}</Project>
       <Name>Net.Chdk.Meta.Providers.Csv</Name>
